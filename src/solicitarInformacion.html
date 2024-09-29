@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Información</title>
+</head>
+<body>
+    <header>
+        <h1>Instituto</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Acerca de Instituto</a></li>
+                <li><a href="./educacionEjecutiva.html">Educacion Ejecutiva</a></li>
+                <li><a href="./empresaGobierno.html">Empresa y Gobierno</a></li>
+                <li><a href="./comunidad.html">Comunidad</a></li>
+                <li><a href="./solicitarInformacion.html">Solicite Informacion</a></li>
+                <li><a href="./sesion.html">Ingresar</a></li>
+            </ul>
+           
+        </nav>
+   </header>
+   <main>
+    <article>
+        <header><h2>Inicia tu esperiencia educativa</h2></header><br>
+        <form action="">
+            <div>
+                <label for="programas">Programas</label><br>
+                <select name="programas" id="programas">
+                    <option selected>Seleccione una opción</option>
+                    <option value="pregrado">Pregrago</option>
+                    <option value="maestria">Maestrias</option>
+                    <option value="mba">MBA</option>
+                    <option value="curso">Cursos</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="name">Nombres</label><br>
+                <input type="text" id="name" placeholder="Nombres" required maxlength="50">
+            </div><br>
+            <div>
+                <label for="lasname">Apellidos</label><br>
+                <input type="text" id="lasname" placeholder="apellidos" required maxlength="80">
+            </div><br>
+            <div>
+                <label for="dni">DNI</label><br>
+                <input type="number" id="dni" placeholder="DNI" required maxlength="8" >
+            </div><br>
+            <div>
+                <label for="email">Correo Electrónico</label><br>
+                <input type="email" id="email" placeholder="Correo@electronico.com" required maxlength="90" >
+            </div><br>
+            <div>
+                <label for="fono">Teléfono</label><br>
+                <input type="tel" id="fono" placeholder="Telefono +51 999999999" required maxlength="20" >
+            </div><br>
+            <p>
+                <small>Estaremos enviando la informacion</small>
+            </p>
+            <button type="submit">Solicitar Información</button>
+        </form>
+
+    </article>
+   </main>
+</body>
+</html>
